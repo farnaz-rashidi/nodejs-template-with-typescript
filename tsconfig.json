@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "importsNotUsedAsValues": "remove",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
+  }
+}
