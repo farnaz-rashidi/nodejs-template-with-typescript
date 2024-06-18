@@ -4,7 +4,8 @@
   "description": "## Description",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
     "format": "prettier --write .",
     "prepare": "husky"
   },
@@ -16,6 +17,7 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
     "prettier": "3.3.2",
+    "rimraf": "^5.0.7",
     "typescript": "^5.4.5"
   },
   "lint-staged": {
