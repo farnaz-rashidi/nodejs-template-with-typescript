@@ -4,8 +4,8 @@
     "target": "ESNext",
     "module": "CommonJS",
     "outDir": "./dist",
-    "rootDir": "./src",
     "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "importsNotUsedAsValues": "remove",
     "noUnusedLocals": true,
@@ -15,5 +15,6 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true
-  }
+  },
+  "include": ["src"]
 }
